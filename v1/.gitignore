@@ -1,14 +1,3 @@
-*
-
-!source/
-!source/*
-
-!.gitignore
-!.editorconfig
-!.clang-format
-!.clang-tidy
-!README.md
-!LICENSE
-
-!CMakeLists.txt
-!conanfile.txt
+.cache/
+.local/
+build*/

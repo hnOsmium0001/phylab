@@ -3,8 +3,11 @@ project(phylab LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
+find_package(OpenGL REQUIRED)
+find_package(GLFW3 REQUIRED)
+find_package(glm REQUIRED)
+find_package(fmt REQUIRED)
+find_package(entt REQUIRED)
 
 add_executable(${PROJECT_NAME}
     # add_executable requires at least one source file
