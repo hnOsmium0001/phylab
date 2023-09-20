@@ -1,3 +1,6 @@
 .cache/
 .local/
+.xmake/
 build*/
+imgui.ini
+.DS_Store
